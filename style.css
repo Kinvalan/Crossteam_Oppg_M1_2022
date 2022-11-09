@@ -1,0 +1,55 @@
+* {
+    user-select: none;
+}
+
+#gameWindow {
+    padding-top: 380px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.mainGame {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+body {
+    font-family: 'Open Sans';
+    font-style: light;
+    background-image: url('tamagotchi.png');
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+#controls {
+    padding-top: 130px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+button {
+    background-color: #763CBF;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    border-radius: 100px;
+}
+
+button:hover {
+    background-color: rgba(140, 101, 190, 0.74);
+    color: white;
+    
+}
+
