@@ -76,7 +76,7 @@ function selectAvatar() {
         lowest = model.play
     }
 
-    if (lowest < model.cleanlines) {
+    if (lowest > model.cleanlines) {
         lowest = model.cleanlines
     }
     if (lowest < 5) return 5
